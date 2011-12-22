@@ -1,0 +1,17 @@
+2009-10-07  Stepan Kasal  <skasal@redhat.com>
+
+	* Changes: fix utf-8 typo, add entry from Find.pm
+
+--- Module-Find-0.08/Changes.cha	2009-09-08 11:00:16.000000000 +0200
++++ Module-Find-0.08/Changes	2009-10-07 16:16:11.000000000 +0200
+@@ -25,6 +25,9 @@
+ 
+     0.06, 2008-01-26
+             Module::Find now won't report duplicate modules several times 
+-            anymore (thanks to Uwe Všlker for the report and the patch)
++            anymore (thanks to Uwe Völker for the report and the patch)
+ 
++    0.07, 2009-09-08
++            Fixed RT#38302: Module::Find now follows symlinks by default
++            (can be disabled).
+ 
